@@ -2,7 +2,7 @@ body {
     font-size: 150%;
     background-color: rgb(36, 36, 36);
     color: white;
-    font-family:'Comic Sans MS'
+    font-family: 'MS Mincho'
 }
 
 a {
@@ -12,4 +12,9 @@ a {
 
 a:visited {
     color: lightseagreen;
+}
+
+h4 {
+
+    font-family: 'Comic Sans MS';
 }
