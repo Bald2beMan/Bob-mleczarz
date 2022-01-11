@@ -1,4 +1,14 @@
 body {
     font-size: 150%;
-    
+    background-color: rgb(36, 36, 36);
+    color: white;
+}
+
+a {
+    color: lightskyblue;
+
+}
+
+a:visited {
+    color: lightseagreen;
 }
