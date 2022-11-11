@@ -51,6 +51,8 @@ img {
 
 }
 
+.button:focus{background-color:rgb(35, 24, 131);}
+
 .button:hover {
     background-color: white;
     color: black;
