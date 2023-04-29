@@ -35,9 +35,12 @@ h4 {
     width: auto\9;
 }
 
-.odc {
-    display:inline-block;
-    width:calc(75% - 2px);
+.ep {
+/*  display:inline-block;
+    width:calc(75% - 2px);  */
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 10px;
 }
 
 .spis {
