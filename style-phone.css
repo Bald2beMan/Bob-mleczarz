@@ -3,7 +3,7 @@ body {
     background-color: rgb(36, 36, 36);
     background-image: url("");
     color: white;
-    font-family: 'MS Mincho';
+    font-family: monospace;
 }
 
 a {
@@ -39,22 +39,12 @@ h4 {
 /*  display:inline-block;
     width:calc(75% - 2px);  */
     display: grid;
-    grid-template-columns: repeat(2, auto);
+    grid-template-columns: repeat(7, auto);
     gap: 10px;
 }
 
 .spis {
     background-color: rgb(50, 50, 50);
-    table-layout: fixed;
-    width: 100% ;
-    word-wrap: break-word;
-}
-
-td {
-    width: 30px;
-    overflow: hidden;
-    display: inline;
-    white-space: nowrap;
 }
 
 .footer {
