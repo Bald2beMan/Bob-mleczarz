@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     const comicSection = document.getElementById("comic-section");
-    const numberOfPages = 51;
+    const numberOfPages = 56;
     const pageFolder = "./pages/";
 
     for (let i = 1; i <= numberOfPages; i++) {
