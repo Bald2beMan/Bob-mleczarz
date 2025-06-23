@@ -162,7 +162,7 @@ nav ul li.active a {
 /* Posts section styles */
 .posts {
     width: 100%;
-    max-width: 600px;
+    max-width: 800px;
     margin: auto;
     padding: 20px;
 }
