@@ -1,42 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bob Mleczarz</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="icon" href="images/icon.jpg" type="image/x-icon">
-    <script defer src="scripts.js"></script>
-</head>
-<body>
-    <header>
-        <div class="header-left">
-            <h1>Bob<br>Mleczarz</h1>
-        </div>
-        <div class="header-right">
-            <nav>
-                <ul>
-                    <li><a href="./index.html"><b>Komiks</b></a></li>
-                    <li><a style="color: #888;"><i>//</i></a></li>
-                    <li><a href="./postacie.html">Postacie</a></li>
-                    <li><a style="color: #888;"><i>//</i></a></li>
-                    <li><a href="./informacje.html">Informacje</a></li>
-                    <li><a style="color: #888;"><i>//</i></a></li>
-                    <li><a href="./tworcy.html">Twórcy</a></li>
-                    <!-- Add more menu items as needed -->
-                </ul>
-            </nav>
-        </div>
-    </header>
-    <main>
-        <section class="comic" id="comic-section"></section>
-    </main>
-    <footer>
-        <h3>2022 - 2024 Bob Mleczarz</h3>
-        <div class="button-container">
-            <button id="scrollToTop">▲</button>
-            <button id="scrollToBottom">▼</button>
-        </div>
-    </footer>
-</body>
-</html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Bob Mleczarz</title>
+		<link rel="stylesheet" href="style.css">
+		<link rel="icon" href="images/icon.jpg" type="image/x-icon">
+		<script defer src="scripts.js"></script>
+	</head>
+
+	<body>
+		<div class="banerSection">
+			<div class="scroll" style="margin-top: 2px;">
+				<marquee hspace="20">
+					<pre>( Jest mleko // nie // a ok )                              ( Jest mleko // 4,50 // kurwa // co takie drogie // inflacja )                              ( ludzie teraz // Jest mleko // ludzie wcześniej // Jest )                              ( Jest mleko // jest ok już // a ok )                              ( kolejka dzisiaj // Jest mleko // wyprzedane )                              ( W alternatywnym uniwersum // Jest Bob // tak )                              ( Jest mleko // tak | Czemu sok // a pomyłka // a ok )                              </pre>
+				</marquee>
+			</div>
+			<img src="./images/baner.png">
+			<hr style="margin: 0;">
+		</div>
+
+		<div class="mainContainer">
+            <div class="left">
+					<iframe src="./najnowsze.html" class="paneFrame" style="height: 82px;"></iframe>
+					<hr class="paneDiv">
+					<a href="./telefon.html" class="button"">Wersja na telefon!</a>
+					<hr class="paneDiv">
+					<iframe src="./informacje.html" class="paneFrame""></iframe>
+            </div>
+
+			<div class="center">
+				<header>
+					<div class="bob">
+						<h1>Bob Mleczarz</h1>
+					</div>
+					<nav>
+						<ul class="navbar">
+							<li><a href="./index.html"><b>GŁÓWNA</b></a></li>
+							<li><a href="./komiks.html">KOMIKS</a></li>
+							<li><a href="./postacie.html">POSTACIE</a></li>
+						</ul>
+					</nav>
+				</header>
+				<div class="textContainer">
+					<p style="text-align: center;">Witaj na oficjalnej stronie <b>Boba mleczarza</b>.</p>
+					<p>Ta witryna ma na celu publikowanie komiksu o skomplikowanej fabule tworzonego przez <em>Bald2beMan</em> od stycznia 2022 roku. Pierwsze szkice pojawiły się w zeszycie od fizyki. W kodzie strony pomagał <em>Skibi</em>, a w fabule wspiera <em>Pablo</em>. Polecam przeczytać całość, bo można nie ogarniać co się dzieje.</p>
+					<p>Epizody wychodzą nieregularnie. Kiedy mam ochotę to je robię. Oparte są na różnorakich żartach wymyślonych przez lata, lub prawdziwych wydarzeniach.</p>
+					<p>Aby zacząć zanurzać się w uniwersum Boba kliknij na zakładkę <em>komiks</em>. Reszty dowiesz się na wcześniej wspomnianej stronie.</p>
+					<details>
+						<summary>Najpierwszy epizod Boba</summary>
+						<img src="./images/prehistoria.jpg">
+					</details>
+					<div class="dialogLeft">
+						<img src="./images/dialog.jpg">
+						<p style="margin-top: 22px;">Miłego czytania!</p>
+					</div>
+				</div>
+				<footer id="btm">
+					<p>Bob Mleczarz | 2022 • 2025</p>
+				</footer>
+			</div>
+			<iframe src="./rightPane.html" class="rightPane" style="height: auto; width: 100%"></iframe>
+
+            <!-- <div class="right">
+                 <h3>Bob</h3>
+                 <img src="./gif-milkman3d.gif" style="width: auto; height: 150px;">
+                 <hr class="paneDiv">
+                 <img src="./milkman2.gif">
+				 <hr class="paneDiv">
+                 <img src="./milkman.gif" style="width: 130px; height: auto">
+				 <hr class="paneDiv">
+				 </div> -->
+
+		</div>
+	</body>

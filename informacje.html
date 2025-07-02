@@ -1,61 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bob Mleczarz</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="icon" href="images/icon.jpg" type="image/x-icon">
-</head>
-<body>
-    <header>
-        <div class="header-left">
-            <h1>Bob<br>Mleczarz</h1>
-        </div>
-        <div class="header-right">
-            <nav>
-                <ul>
-                    <li><a href="./index.html">Komiks</a></li>
-                    <li><a style="color: #888;"><i>//</i></a></li>
-                    <li><a href="./postacie.html">Postacie</a></li>
-                    <li><a style="color: #888;"><i>//</i></a></li>
-                    <li><a href="./informacje.html"><b>Informacje</b></a></li>
-                    <li><a style="color: #888;"><i>//</i></a></li>
-                    <li><a href="./tworcy.html">Twórcy</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bob Mleczarz</title>
+        <link rel="stylesheet" href="">
+        <link rel="icon" href="images/icon.jpg" type="image/x-icon">
 
-    <main>
-        <section class="posts">
-            <div class="post">
+        <style>
+         body {
+             background-color: #009;
+             color: white;
+             max-width: 800px;
+         }
+
+         a {
+             background-color: white;
+             color: black;
+         }
+
+         a:hover {
+             background-color: black;
+             color: white;
+         }
+
+         .container {
+             background-color: #00f;
+             overflow-x: hidden; /* Prevent horizontal scrolling */
+             overflow-y: auto;   /* Allow vertical scrolling */
+             word-wrap: break-word; /* Wrap long words to prevent overflow */
+             border: 1px solid black;
+         }
+        </style>
+    </head>
+    <body style="font-size: 12px;">
+        <a href="./informacje.html" target="_parent">PEŁEN EKRAN</a>
+            <div class="container">
+                <h2>Następny redesign</h2>
+                <i>20250627</i>
+                <p>Tym razem stronę zmieniłem tak, aby dobrze wyglądała. Wcześniejszym priorytetem była prostota dodawania nowych epizodów. Zaakceptowałem że trzeba się trochę pomęczyć żeby mieć ładną stronę.</p>
+                <hr>
+
                 <h2>Ups</h2>
                 <i>20250622</i>
                 <p>Przynajmniej nowy arc wypuszczony.</p>
-            </div>
-            <div class="post">
+                <hr>
+
                 <h2>Tydzień ukończony</h2>
                 <i>20240524</i>
                 <p>Tydzień 20-26 maja został wypełniony 5 epizodami.</p>
-            </div>
-            <div class="post">
+                <hr>
+
                 <h2>Epizody co tydzień</h2>
                 <i>20240524</i>
                 <p>Od teraźniejszego tygodnia epizodów będzię się pojawiało 5 co tydzień.<br>Aż do końca serii...</p>
-            </div>
-            <div class="post">
+                <hr>
+
                 <h2>Strona przeprogramowana!</h2>
                 <i>20240524</i>
                 <p>W końcu dokonana rewizja strony. Lepszy design dla urządzeni mobilnych, bardziej poręczne ui i o wiele lepszy komfort pracy.</p>
             </div>
-            <!-- Add more updates as needed -->
-        </section>
-    </main>
-
-    <footer>
-        <h3>2022 - 2024 Bob Mleczarz</h3>
-    </footer>
-    <script src="scripts.js"></script>
-</body>
+        </div>
+    </body>
 </html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3 Column Layout</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            margin: 20px;
+        }
+
+        .column {
+            background-color: #fff;
+            padding: 20px;
+            margin: 10px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .left-column {
+            flex: 1;
+            background-color: #e0f7fa;
+        }
+
+        .center-column {
+            flex: 2;
+            background-color: #ffecb3;
+        }
+
+        .right-column {
+            flex: 1;
+            background-color: #c8e6c9;
+        }
+
+        header {
+            background-color: #00796b;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            font-size: 24px;
+        }
+
+        footer {
+            background-color: #00796b;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        3 Column Website Layout
+    </header>
+
+    <div class="container">
+        <div class="column left-column">
+            <h2>Left Column</h2>
+            <p>This is the left column. You can add any content here, like text, images, etc.</p>
+        </div>
+
+        <div class="column center-column">
+            <h2>Center Column</h2>
+            <p>This is the center column, which is wider than the other two. It's perfect for more content!</p>
+        </div>
+
+        <div class="column right-column">
+            <h2>Right Column</h2>
+            <p>This is the right column. It's similar to the left column in width.</p>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2025 Simple 3-Column Layout
+    </footer>
+
+</body>
+</html>
